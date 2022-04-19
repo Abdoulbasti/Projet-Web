@@ -1,0 +1,8 @@
+{
+ "produits": {
+  "produit1": {"nom": "pizza1","ingredient": ["ing1","ing2"]},
+  "produit2": {"nom": "pizza2","ingredient":["ing11","ing22"]},
+  "3": {"nom": "pizza2","ingredient":["ing11","ing"]},
+  "lmkjm" : {"nom":"pizza XL","ingredient":["ing","sdf"]}
+ }
+}

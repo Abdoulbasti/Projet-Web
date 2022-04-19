@@ -1,0 +1,27 @@
+.description{
+    position: relative;
+    margin-top: 30px;
+    width: 200px;
+    border: blueviolet solid 3px;
+}
+#panier{
+    position: absolute;
+    border: gray solid 3px;
+    height: 100vh;
+    width: 5vw;
+    margin-left: 95vw;
+    margin-top: 0px;
+}
+#produitList{
+    position: absolute;
+    width: 95vw;
+    border: red solid 3px;
+}
+.container-fluid{
+    position: absolute;
+    border: gray solid 3px;
+    width: 95vw;
+}
+li{
+    display: inline;
+}

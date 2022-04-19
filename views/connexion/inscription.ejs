@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script src="/JQuery360.js"></script>
+    <script src='/connexion/inscription.js'></script>
+    <!https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css!>
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <link href='/connexion/connexion.css' rel="stylesheet">
+    <title>Insciption</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="container pageCentre" style="margin-top: 0px">
+        <h1 style="color: #80bdff">Inscription</h1>
+        <div class="jumbotron">
+            <form method="post" action="/inscription">
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <div class="mb-auto">
+                            <label for="nom">Votre nom: </label>
+                            <input type="text" class="form-control" id="nom">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <div class="mb-auto">
+                            <label for="prenom">Votre prenom:</label>
+                            <input type="text" class="form-control" id="prenom">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <div class="mb-auto">
+                            <label for="identifiant">Identifiant: </label>
+                            <input type="text" class="form-control" id="identifiant">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <div class="mb-auto">
+                            <label for="password">Mot de passe: </label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <div class="mb-auto">
+                            <label for="confirmPassword">confirmation mot de passe: </label>
+                            <input type="password" class="form-control" id="conformPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <div class="mb-auto">
+                            <span style="margin-right: 10px"><a href="/acceuil">page d'acceuil</a></span>
+                            <span><a href="/connexion">se connecter</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
+                        <button type="submit" class="btn btn-primary">s'inscrire</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
